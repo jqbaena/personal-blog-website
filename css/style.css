@@ -1,39 +1,109 @@
 /* iPhone 11: screen width 414px */
 @media(max-width: 414px){
+   * { margin:0; padding:0; box-sizing:border-box; }
   .container{
       display:grid;
+      margin: 0;
       grid-template-columns: 100%;
-      grid-template-rows: 1fr 200px 1fr 1fr;
-      border: 2px solid yellow;
-        /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
+      grid-auto-rows: minmax(50px, auto);
       grid-template-areas:
-      "hd"
+      "navbar"
+      "title"
       "main"
       "sd"
-      "ft";
+      "ft"
       }
-    .box{
-          border: 1px solid red;
-          background: #F8FA9D;
-        }
+      .box{
+        border: 1px solid red;
+        background: #F8FA9D;
+      }
       .navbar{ 
-        grid-area: hd;
-        height: 50px;
+        grid-area: navbar;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
       }
       .title{
-        grid-area:hd;
-        height: 80px;
-        width: 100%;
+        grid-area: title;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-bottom: 10px;
       }
-      .post{
-        height: 300px;
+      .content{
         grid-area: main;
+        height: auto;
       }
       .sd{
         grid-area: sd;
       }
       .ft{
         grid-area: ft;  
-        height: 50px;
+      }
+      .post{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        min-height: 930px;
+        margin-bottom: 20px;
+      }
+      .post-image{
+        height: 226px;
+      }
+      .post-title{
+        text-decoration: none;
+        color: black;
+        font-family: 'Sintony', sans-serif;
+        font-size: 32px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 35px;
+        margin-left: 35px;
+      }
+      .post-text{
+        font-family: 'Noto Serif', serif;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+      .post-button{
+        background-color:#ffffff;
+        border:2px solid #000000;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-family:'Sintony', sans-serif;
+        font-size:11px;
+        font-weight: 700;
+        padding:14px 20px;
+        text-decoration:none;
+        margin-left: 20px;
+        margin-right: 20px;
+        letter-spacing: 1px;
+      }
+      .post-footer-text{
+        font-family: 'Sintony', serif;
+        font-size: 11px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+      .post-footer-social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items:center;
+        margin-left: 20px;
+      }
+      .media-icon{
+        margin-right: 10px;
+        width: 24px;
+        height: 24px;
       }
 }
