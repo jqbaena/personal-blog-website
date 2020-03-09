@@ -132,6 +132,10 @@
     font-size: 16px;
     margin-top: 20px;
     margin-left: 25px;
+    text-decoration: none;
+  }
+  .sd-top-posts a{
+    text-decoration: none;
   }
   .subscribe-text{
     font-family: 'Noto serif', serif;
@@ -159,6 +163,31 @@
     padding:14px 16px;
     text-decoration:none;
     margin-top: 20px;
+    letter-spacing: 2px;
+  }
+  .ft{
+    background-color: rgb(223, 223, 223);
+    height: 85px;
+    text-align: center;
+  }
+  .back-top{
+    justify-content: center;
+  }
+  .ft p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Noto serif', serif;
+    color: black;
+    font-size: 11px;
+  }
+  .ft a{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: 'Noto serif', serif;
+    color: #aaaaaa;
+    font-weight: 700;
+    font-size: 11px;
     letter-spacing: 2px;
   }
 }
