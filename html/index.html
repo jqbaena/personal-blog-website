@@ -14,18 +14,20 @@
 
 <body>
   <div class="container">
-    <div class="navbar">
-      <img width="18px" height="16px" src="../images/menu.png" alt="A smiling Labrador Retriever" />
-      <img width="13px" height="14px" src="../images/search.png" alt="A smiling Labrador Retriever" />
-    </div>
-    <div class="title">
-      <img src="../images/africa.png" alt="A smiling Labrador Retriever" height="60px" />
-    </div>
+    <header>
+      <div class="navbar">
+        <img width="18px" height="16px" src="../images/menu.png" alt="A smiling Labrador Retriever" />
+        <img width="13px" height="14px" src="../images/search.png" alt="A smiling Labrador Retriever" />
+      </div>
+      <div class="title">
+        <img src="../images/africa.png" alt="A smiling Labrador Retriever" height="60px" />
+      </div>
+    </header>
     <div class="content">
-      <div class="post">
-        <img class="post-image" src="../images/zebra.jpg" alt="A smiling Labrador Retriever" />
-        <a class="post-title" href="blog-post.html"> There is a new theory on why zebras have black and white
-          stripes</a>
+      <article class="post">
+        <img href="blog-post-zebra.html" class="post-image" src="../images/zebra.jpg" alt="A smiling Labrador Retriever" />
+        <a class="post-title" href="blog-post-zebra.html"> There is a new theory on why zebras have black and white
+        stripes</a>
         <p class="post-text">
           Why do zebras have their unique black and white stripes?
           It’s a question many scientists have been asking ever since British naturalist 
@@ -34,7 +36,7 @@
           They believe that the zebra’s black and white fur works as an “optical protection” against insects – such as blood-sucking horseflies.
         </p>
         <span>
-          <button class="post-button">CONTINUE READING</button>
+          <a href="blog-post-zebra.html" class="post-button">CONTINUE READING</a>
         </span>
         <span>
           <p class="post-footer-text"> MARCH 3, 2020 BY JOAQUIN - LIFE IN AFRICA</p>
@@ -46,9 +48,8 @@
           <img class="media-icon" src="../images/twitter.png" alt="A smiling Labrador Retriever" />
           <img class="media-icon" src="../images/google-plus.png" alt="A smiling Labrador Retriever" />
         </div>
-      </div>
-      <div class="post">
-        <div class="post">
+      </article>
+      <article class="post">
           <img class="post-image" src="../images/kilimanjaro.jpg" alt="A smiling Labrador Retriever" />
           <a class="post-title" href="blog-post.html"> A win on Kilimanjaro: How Africa's highest peak conquered tourism
           </a>
@@ -80,9 +81,8 @@
             <img class="media-icon" src="../images/twitter.png" alt="A smiling Labrador Retriever" />
             <img class="media-icon" src="../images/google-plus.png" alt="A smiling Labrador Retriever" />
           </div>
-        </div>
-      </div>
-      <div class="post">
+        </article>
+      <article class="post">
         <img class="post-image" src="../images/rhino.jpg" alt="A smiling Labrador Retriever" />
         <a class="post-title" href="blog-post.html"> Can the Northern White Rhino Be Brought Back From the Brink of Extinction?
         </a>
@@ -103,8 +103,8 @@
           <img class="media-icon" src="../images/twitter.png" alt="A smiling Labrador Retriever" />
           <img class="media-icon" src="../images/google-plus.png" alt="A smiling Labrador Retriever" />
         </div>
-      </div>
-      <div class="post">
+      </article>
+      <article class="post">
         <img class="post-image" src="../images/serengeti.jpeg" alt="A smiling Labrador Retriever" />
         <a class="post-title" href="blog-post.html"> Serengeti migration safaris
         </a>
@@ -129,9 +129,9 @@
           <img class="media-icon" src="../images/twitter.png" alt="A smiling Labrador Retriever" />
           <img class="media-icon" src="../images/google-plus.png" alt="A smiling Labrador Retriever" />
         </div>
-      </div>
+      </article>
       
-      <div class="post">
+      <article class="post">
         <img class="post-image" src="../images/nile.jpg" alt="A smiling Labrador Retriever" />
         <a class="post-title" href="blog-post.html"> The world's longest river is sick -
           and getting sicker
@@ -164,8 +164,8 @@
           <img class="media-icon" src="../images/twitter.png" alt="A smiling Labrador Retriever" />
           <img class="media-icon" src="../images/google-plus.png" alt="A smiling Labrador Retriever" />
         </div>
-      </div>
-      <div class="post">
+      </article>
+      <article class="post">
         <img class="post-image" src="../images/sahara.jpg" alt="A smiling Labrador Retriever" />
         <a class="post-title" href="blog-post.html"> The Sahara: Earth's Largest Hot Desert
         </a>
@@ -186,17 +186,16 @@
           <img class="media-icon" src="../images/twitter.png" alt="A smiling Labrador Retriever" />
           <img class="media-icon" src="../images/google-plus.png" alt="A smiling Labrador Retriever" />
         </div>
-      </div>
+      </article>
     </div>
     <div class="sd">
-      <div class="end">
-      </div>
+      <div class="end"></div>    
       <h2 class="sd-title"> POPULAR POSTS
         <ol>
           <li class="sd-top-posts" ><a href="#">A win on Kilimanjaro: How Africa's highest peak conquered tourism</a></li>
           <li class="sd-top-posts"><a href="#">Can the Northern White Rhino Be Brought Back From the Brink of Extinction?
           </a></li>
-          <li class="sd-top-posts"><a href="#">There is a new theory on why zebras have black and white
+          <li class="sd-top-posts"><a href="blog-post-zebra.html">There is a new theory on why zebras have black and white
             stripes</a></li>
         </ol>
         <p class="subscribe-text">Don't miss the next article and subscribe </p>
@@ -206,7 +205,7 @@
     </div>
     <div class="ft">
       <p>Privacy Policy | Terms | RSS | Podcast RSS</p>
-      <a>BACK TO TOP</a>
+      <a href="#">BACK TO TOP</a>
     </div>
   </div>
 </body>
