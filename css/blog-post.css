@@ -1,6 +1,6 @@
 /* iPhone 11: screen width 414px */
 @media(max-width: 414px){
-* { 
+    * { 
     margin:0; 
     padding:0; 
     box-sizing:border-box; 
@@ -30,6 +30,7 @@
     justify-content: space-between;
     align-items: center;
   }
+
   .previous-next-post a{
     margin-left: 20px;
     margin-right: 20px;
