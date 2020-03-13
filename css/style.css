@@ -24,7 +24,9 @@
   "sd"
   "ft"
   }
-
+  .link{
+    display:inline-block;
+  }
   .box{
     border: 1px solid red;
     background: #F8FA9D;
@@ -75,7 +77,6 @@
 
   .post-image{
     height: 226px;
-
   }
 
   .post-title{
