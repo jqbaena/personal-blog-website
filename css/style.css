@@ -228,4 +228,19 @@
     letter-spacing: 2px;
     text-decoration: none;
   }
+
+  .burger-menu-container{
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    background-image: url("../images/menu.png");
+  }
+
+
+  .search-icon{
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    background-image: url("../images/search.png");
+  }
 }
