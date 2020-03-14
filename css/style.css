@@ -12,10 +12,6 @@
     box-sizing:border-box; 
   }
 
-  .hidden-title{
- 
-  }
-
   .container{
   display:grid;
   background-color: #F7F7F8;
@@ -29,6 +25,7 @@
   "sd"
   "ft"
   }
+
   .navbar{ 
     grid-area: navbar;
     height: 50px;
@@ -47,7 +44,7 @@
     text-indent: -9999px;
     width: 100%;
     height: 60px;
-    background: url(./images/africa.png) #cccccc no-repeat;
+    background-image: url("../images/africa.png") ;
   }
 
   .content{
