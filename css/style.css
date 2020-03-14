@@ -12,6 +12,15 @@
     box-sizing:border-box; 
   }
 
+  .h1{
+    font: size 0;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+    border: 0;
+  }
+
   .container{
   display:grid;
   background-color: #F7F7F8;
