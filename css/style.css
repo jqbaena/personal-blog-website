@@ -85,6 +85,12 @@
     margin-left: 35px;
   }
 
+  .title-link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+
   .post-text{
     font-family: 'Noto Serif', serif;
     font-size: 16px;
