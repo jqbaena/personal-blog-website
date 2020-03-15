@@ -150,12 +150,21 @@
     margin-bottom: 10px;
   }
 
+  .inside-post-link{
+    font-family: 'Noto serif', serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;  
+    text-decoration: none; 
+  }
+
   .sd-top-posts{
     font-family: 'Noto serif', serif;
     font-size: 16px;
     margin-top: 20px;
     margin-left: 25px;
-    text-decoration: none;
   }
 
   .sd-top-posts a{
