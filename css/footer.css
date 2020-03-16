@@ -37,3 +37,43 @@
         text-decoration: none;
     }
 }
+
+/* Medium Screens */
+@media (min-width: 600px) and (max-width:900px) {
+     /*set to 0 extra space created by default*/
+     * { 
+        margin:0; 
+        padding:0; 
+        box-sizing:border-box;
+        }
+    
+        .ft{
+            background-color: rgb(223, 223, 223);
+            height: 85px;
+            text-align: center;
+        }
+    
+        .back-top{
+            justify-content: center;
+        }
+    
+        .ft p{
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding-top: 5px;
+            font-family: 'Noto serif', serif;
+            color: black;
+            font-size: 11px;
+        }
+        
+        .ft a{
+            margin-left: 20px;
+            margin-top: 50px;
+            font-family: 'Noto serif', serif;
+            color: #aaaaaa;
+            font-weight: 700;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-decoration: none;
+        }
+  }
