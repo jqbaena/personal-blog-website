@@ -5,11 +5,22 @@
     padding:0; 
     box-sizing:border-box; 
   }
+  .image-box{
+    display: flex;
+    flex-flow: column;
+  }
+  
   .post-image-between{
+    vertical-align: middle;
     height: 226px;
-    margin-bottom: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .captions{
+    margin-bottom:20px;
+    text-align: center;
   }
 
   .inside-post-text{
