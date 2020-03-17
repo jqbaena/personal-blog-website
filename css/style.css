@@ -517,7 +517,8 @@
     "ft ft"
   }
   .hd{
-    grid-area: navbar
+    grid-area: navbar;
+    padding-bottom: 10px;
   }
   .navbar{ 
     grid-area: navbar;
