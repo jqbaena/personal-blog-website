@@ -14,17 +14,17 @@
   }
 
   .container{
-  display:grid;
-  background-color: #F7F7F8;
-  margin: 0;
-  grid-template-columns: 100%;
-  grid-auto-rows: minmax(auto, auto);
-  grid-template-areas:
-  "navbar"
-  "title"
-  "main"
-  "sd"
-  "ft"
+    display:grid;
+    background-color: #F7F7F8;
+    margin: 0;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-areas:
+    "navbar"
+    "title"
+    "main"
+    "sd"
+    "ft"
   }
 
   .navbar{
