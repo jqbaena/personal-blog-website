@@ -219,7 +219,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("../images/author.jpg")
+    background-image: url("../images/img_avatar.png")
   }
 
   .about-text {
@@ -462,7 +462,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("../images/author.jpg")
+    background-image: url("../images/img_avatar.png")
   }
 
   .about-text {
@@ -715,7 +715,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("../images/author.jpg")
+    background-image: url("../images/img_avatar.png")
   }
 
   .about-text {
