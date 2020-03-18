@@ -1,9 +1,9 @@
 /* iPhone 11: screen width 414px */
 @media(max-width: 414px){
-    * { 
-    margin:0; 
-    padding:0; 
-    box-sizing:border-box; 
+    * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
   .image-box{
     display: flex;
@@ -56,11 +56,12 @@
 
 /* Medium Screens */
 @media (min-width: 600px) and (max-width:900px) {
-  * { 
-    margin:0; 
-    padding:0; 
-    box-sizing:border-box; 
+  * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
+
   .image-box{
     display: flex;
     flex-flow: column;
@@ -113,11 +114,12 @@
 
 /* Large Screens*/
 @media (min-width: 901px) {
-  * { 
-    margin:0; 
-    padding:0; 
-    box-sizing:border-box; 
+  * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
+
   .image-box{
     display: flex;
     flex-flow: column;

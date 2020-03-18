@@ -7,10 +7,10 @@
 /* iPhone 11: screen width 414px */
 @media(max-width: 414px){
 /*set to 0 extra space created by default*/
-  * { 
-    margin:0; 
-    padding:0; 
-    box-sizing:border-box; 
+  * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
 
   .container{
@@ -27,7 +27,7 @@
   "ft"
   }
 
-  .navbar{ 
+  .navbar{
     grid-area: navbar;
     height: 50px;
     background: #F7F7F8;
@@ -51,7 +51,7 @@
   }
 
   .ft{
-    grid-area: ft;  
+    grid-area: ft;
   }
 
   .post{
@@ -156,8 +156,8 @@
     font-size: 17px;
     margin-bottom: 20px;
     margin-left: 25px;
-    margin-right: 25px;  
-    text-decoration: none; 
+    margin-right: 25px;
+    text-decoration: none;
   }
 
   .sd-top-posts{
@@ -230,7 +230,7 @@
     margin-right: 5px;
     line-height: 1.5;
   }
-  
+
   .about-text h3{
     font-family: 'Sintony';
     font-size: 16px;
@@ -249,10 +249,10 @@
 
 /* Medium Screens */
 @media (min-width: 600px) and (max-width:900px) {
-  * { 
-    margin:0; 
-    padding:0; 
-    box-sizing:border-box; 
+  * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
 
   .container{
@@ -269,7 +269,7 @@
     "ft"
   }
 
-  .navbar{ 
+  .navbar{
     grid-area: navbar;
     height: 50px;
     background: #F7F7F8;
@@ -293,7 +293,7 @@
   }
 
   .ft{
-    grid-area: ft;  
+    grid-area: ft;
   }
 
   .post{
@@ -399,8 +399,8 @@
     font-size: 17px;
     margin-bottom: 20px;
     margin-left: 25px;
-    margin-right: 25px;  
-    text-decoration: none; 
+    margin-right: 25px;
+    text-decoration: none;
   }
 
   .sd-top-posts{
@@ -473,7 +473,7 @@
     margin-right: 5px;
     line-height: 1.5;
   }
-  
+
   .about-text h3{
     font-family: 'Sintony';
     font-size: 24px;
@@ -490,10 +490,10 @@
 
 /* Large Screens */
 @media (min-width: 901px) {
-  * { 
-    margin:0; 
-    padding:0; 
-    box-sizing:border-box; 
+  * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
 
   body{
@@ -520,7 +520,7 @@
     grid-area: navbar;
     padding-bottom: 10px;
   }
-  .navbar{ 
+  .navbar{
     grid-area: navbar;
     height: 50px;
     background: #F7F7F8;
@@ -544,7 +544,7 @@
   }
 
   .ft{
-    grid-area: ft;  
+    grid-area: ft;
   }
 
   .post{
@@ -653,8 +653,8 @@
     font-size: 17px;
     margin-bottom: 20px;
     margin-left: 25px;
-    margin-right: 25px;  
-    text-decoration: none; 
+    margin-right: 25px;
+    text-decoration: none;
   }
 
   .sd-top-posts{
@@ -726,7 +726,7 @@
     margin-right: 20px;
     line-height: 1.5;
   }
-  
+
   .about-text h3{
     font-family: 'Sintony';
     font-size: 20px;
